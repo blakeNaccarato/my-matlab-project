@@ -11,7 +11,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "nodalpy"
 version = "0.0.0"
-description = "Nodal network analyzer for Matlab"
+description = "Nodal network analyzer for Matlab."
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.11"
