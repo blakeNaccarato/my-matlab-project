@@ -48,8 +48,8 @@ function reduce2(net, nodePairID)
         nodes(i+1).Links(ind2) = [];
     end
 
-    rembound(net,rtInfNode.Address)
-    addbound(net,'heat',rtInfNode.Address,-fluxInf)
+    net.rembound(rtInfNode.Address)
+    net.addbound('heat',rtInfNode.Address,-fluxInf)
 
     net.Links(~isvalid(net.Links)) = [];
     equivCond = sum(1./cond)^-1;
