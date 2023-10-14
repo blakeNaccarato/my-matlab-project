@@ -1,7 +1,7 @@
 from datetime import date
 
 project = ""
-html_title = "my_matlab_project"
+html_title = "nodalpy"
 copyright = f"{date.today().year}, blakeNaccarato"  # noqa: A001
 version = "0.0.0"
 master_doc = "index"
@@ -12,7 +12,7 @@ extensions = ["myst_parser", "sphinx_design"]
 # https://sphinx-book-theme.readthedocs.io/en/stable/reference.html#reference-of-theme-options
 html_theme_options = {
     "path_to_docs": "docs",
-    "repository_url": "https://github.com/blakeNaccarato/my_matlab_project",
+    "repository_url": "https://github.com/blakeNaccarato/nodalpy",
     "repository_branch": "main",
     "use_download_button": True,
     "use_fullscreen_button": True,

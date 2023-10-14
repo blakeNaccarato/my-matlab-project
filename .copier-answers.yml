@@ -3,10 +3,10 @@ _commit: 106962a
 _src_path: gh:blakeNaccarato/copier-python
 actions_runner: ubuntu-latest
 active: false
-github_repo_name: my-matlab-project
-project_description: My Matlab project.
+github_repo_name: nodal
+project_description: Nodal network analyzer for Matlab
 project_email: blake.naccarato@gmail.com
-project_name: my_matlab_project
+project_name: nodalpy
 project_owner_github_username: blakeNaccarato
 project_owner_name: blakeNaccarato
 project_version: 0.0.0

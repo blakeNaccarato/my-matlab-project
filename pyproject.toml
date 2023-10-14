@@ -9,9 +9,9 @@ requires = ["flit_core==3.9.0"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "my_matlab_project"
+name = "nodalpy"
 version = "0.0.0"
-description = "My Matlab project."
+description = "Nodal network analyzer for Matlab"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.11"
@@ -23,10 +23,10 @@ name = "blakeNaccarato"
 email = "blake.naccarato@gmail.com"
 
 [project.urls]
-Changes = "https://blakeNaccarato.github.io/my-matlab-project/changelog.html"
-Docs = "https://blakeNaccarato.github.io/my-matlab-project"
-Home = "https://github.com/blakeNaccarato/my-matlab-project"
-Tracker = "https://github.com/blakeNaccarato/my-matlab-project/issues"
+Changes = "https://blakeNaccarato.github.io/nodal/changelog.html"
+Docs = "https://blakeNaccarato.github.io/nodal"
+Home = "https://github.com/blakeNaccarato/nodal"
+Tracker = "https://github.com/blakeNaccarato/nodal/issues"
 
 [tool.fawltydeps]
 output_format = "human_detailed"

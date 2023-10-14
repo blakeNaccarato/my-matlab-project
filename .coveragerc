@@ -1,6 +1,6 @@
 [run]
 branch = True
-source = my_matlab_project
+source = nodalpy
 
 [report]
 
