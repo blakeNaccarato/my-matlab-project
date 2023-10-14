@@ -1,0 +1,22 @@
+# Requirements for both CI and dev environments.
+
+# * -------------------------------------------------------------------------------- * #
+# * Changes below should persist in significant template updates.
+
+# * -------------------------------------------------------------------------------- * #
+# * Changes below may be lost in significant template updates.
+
+# Type checking
+pyright
+# Pre-commit common requirements
+ruff==0.0.292
+# Testing
+pytest==7.4.2
+# Testing plugins
+pytest-cov==4.1.0
+pytest-custom-exit-code==0.3.0
+# Format AND test notebooks
+nb-clean==3.0.1
+nbqa==1.7.0
+
+-r requirements_docs.txt
