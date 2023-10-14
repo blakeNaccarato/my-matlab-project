@@ -65,7 +65,15 @@ repos:
     rev: "v4.4.0"
     hooks:
       - id: "end-of-file-fixer"
+        exclude: |
+          (?x)^(
+            resources/.*
+          )$
       - id: "trailing-whitespace"
+        exclude: |
+          (?x)^(
+            resources/.*
+          )$
   - repo: "https://github.com/asottile/blacken-docs"
     rev: "1.16.0"
     hooks:
